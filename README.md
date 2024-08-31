@@ -7,6 +7,15 @@ debian:
 ``` bash
 sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev
 ```
+created the autostart.sh
+```
+
+```
+
+
+<hr>
+
+#Hyperland
 
 https://github.com/user-attachments/assets/eb86c991-049f-4c18-8555-5d02338674b8
 
