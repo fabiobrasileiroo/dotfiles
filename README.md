@@ -1,3 +1,13 @@
+# Setup basic dwm
+arch:
+``` bash
+sudo pacman -S make gcc libx11 libxft libxinerama
+```
+debian:
+``` bash
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev
+```
+
 https://github.com/user-attachments/assets/eb86c991-049f-4c18-8555-5d02338674b8
 
 # Guia Básico de Comandos Úteis para Arch Linux
