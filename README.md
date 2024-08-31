@@ -11,9 +11,38 @@ debian:
 ``` bash
 sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev
 ```
-created the autostart.sh
+
+make
+``` bash
+cd .config/dwm-fabio
 ```
 
+``` bash
+sudo make && make clean install
+```
+
+``` bash
+cd dwmblocks
+```
+
+``` bash
+sudo make && make clean install
+```
+
+``` bash
+cd dmenu
+```
+
+``` bash
+sudo make && make clean install
+```
+ 
+create autostart.sh
+``` bash
+cd && mkdir .dwm && cd .dwm && touch autostart.sh && echo -> '#!bin/bash
+
+dwmblocks &
+' && chmod -x autostart.sh
 ```
 
 
