@@ -39,10 +39,10 @@ sudo make && make clean install
  
 create autostart.sh
 ``` bash
-cd && mkdir .dwm && cd .dwm && touch autostart.sh && echo -> '#!bin/bash
+cd && mkdir .dwm && cd .dwm && touch autostart.sh && echo '#!/bin/bash
 
 dwmblocks &
-' && chmod -x autostart.sh
+' > autostart.sh && chmod +x autostart.sh
 ```
 
 
