@@ -45,7 +45,7 @@ dwmblocks &
 ' > autostart.sh && chmod +x autostart.sh
 ```
 
-create .desktop
+create dwm.desktop
 ```
 [Desktop Entry]                                                 
 Name=dwm                                                        
