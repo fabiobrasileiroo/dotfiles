@@ -45,6 +45,19 @@ dwmblocks &
 ' > autostart.sh && chmod +x autostart.sh
 ```
 
+create .desktop
+```
+[Desktop Entry]                                                 
+Name=dwm                                                        
+Comment=suckless tiling window manager                          
+Exec=dwm
+TryExec=dwm                                                     
+Type=Application                                                
+X-LightDM-DesktopName=dwm                                       
+DesktopNames=dwm                                                
+Keywords=tiling;wm;manager;                                     
+                                         
+```
 
 <hr>
 
