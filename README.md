@@ -1,3 +1,7 @@
+# Dwm 
+
+![Dwm_](https://github.com/user-attachments/assets/9a7bcb14-473a-475b-b4c5-e3476c606eb1)
+
 # Setup basic dwm
 arch:
 ``` bash
@@ -15,11 +19,11 @@ created the autostart.sh
 
 <hr>
 
-#Hyperland
+# Hyperland
 
 https://github.com/user-attachments/assets/eb86c991-049f-4c18-8555-5d02338674b8
 
-# Guia Básico de Comandos Úteis para Arch Linux
+## Guia Básico de Comandos Úteis para Arch Linux
 
 Este guia é destinado a usuários que estão migrando do Debian para o Arch Linux e precisam se familiarizar com os comandos básicos.
 
