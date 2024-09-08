@@ -1,0 +1,35 @@
+#!/bin/bash
+
+shutdown=" Shutdown"
+reboot=" Reboot"
+logout=" Logout"
+lock=" Lock"
+
+# Variable passed to dmenu
+options="$shutdown\n$reboot\n$logout\n$lock"
+
+chosen="$(echo -e "$options" | dmenu -i -p "Power-Menu")"
+case $chosen in
+$shutdown)
+	sudo shutdown -h now
+	;;
+$reboot)
+	sudo shutdown -r now
+	;;
+$logout)
+	pkill -KILL -u $USER
+	;;
+$lock)
+	# Capture a screenshot
+	scrot /tmp/screen_locked.png
+
+	# Apply a blur effect using ImageMagick
+	convert /tmp/screen_locked.png -blur 0x8 /tmp/screen_locked_blur.png
+
+	# Lock the screen with i3lock using the blurred image
+	i3lock -i /tmp/screen_locked_blur.png
+
+	# Remove the temporary images
+	rm /tmp/screen_locked.png /tmp/screen_locked_blur.png
+	;;
+esac

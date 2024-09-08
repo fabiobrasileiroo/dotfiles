@@ -1,0 +1,4 @@
+#!/bin/bash
+
+hostname -I | awk '{print $1}'
+#ip -o -4 addr list | awk '{print $4}' | awk 'NR==2 {split($0, a, "/"); print a[1]}

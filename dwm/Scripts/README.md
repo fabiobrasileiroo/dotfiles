@@ -1,0 +1,2 @@
+# Scripts
+ dmenu e dwm
