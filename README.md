@@ -36,7 +36,12 @@ cd dmenu
 ``` bash
 sudo make && make clean install
 ```
- 
+
+Usado para executar na TTY UI:
+ ``` bash
+cd && mkdir .xinitrc && echo 'exec dwm' > .xinitrc
+```
+
 create autostart.sh
 ``` bash
 cd && mkdir .dwm && cd .dwm && touch autostart.sh && echo '#!/bin/bash
@@ -46,7 +51,11 @@ dwmblocks &
 ```
 
 create dwm.desktop
+``` bash
+cd /usr/share/xsessions
 ```
+
+``` bash
 [Desktop Entry]                                                 
 Name=dwm                                                        
 Comment=suckless tiling window manager                          
