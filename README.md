@@ -39,7 +39,7 @@ sudo make && make clean install
 
 Usado para executar na TTY UI:
  ``` bash
-cd && mkdir .xinitrc && echo 'exec dwm' > .xinitrc
+cd && touch .xinitrc && echo 'exec dwm' > .xinitrc
 ```
 
 create autostart.sh
