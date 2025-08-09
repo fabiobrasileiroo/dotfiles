@@ -8,8 +8,8 @@ arch:
 sudo pacman -S make gcc libx11 libxft libxinerama
 ```
 debian:
-``` bash
-sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev
+``` bash 
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev  libx11-xcb-dev libxcb-res0-dev
 ```
 
 make
