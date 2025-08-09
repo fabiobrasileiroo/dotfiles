@@ -18,7 +18,7 @@ cd .config/dwm-fabio
 ```
 
 ``` bash
-sudo make && make clean install
+sudo make && sudo make clean install
 ```
 
 ``` bash
@@ -26,7 +26,7 @@ cd dwmblocks
 ```
 
 ``` bash
-sudo make && make clean install
+sudo make && sudo make clean install
 ```
 
 ``` bash
@@ -34,7 +34,7 @@ cd dmenu
 ```
 
 ``` bash
-sudo make && make clean install
+sudo make && sudo make clean install
 ```
 
 Usado para executar na TTY UI:
@@ -52,7 +52,7 @@ dwmblocks &
 
 create dwm.desktop
 ``` bash
-cd /usr/share/xsessions
+cd /usr/share/xsessions && sudo touch dwm.desktop 
 ```
 
 ``` bash
