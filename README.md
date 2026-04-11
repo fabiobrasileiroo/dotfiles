@@ -5,11 +5,13 @@
 # Setup basic dwm
 arch:
 ``` bash
-sudo pacman -S make gcc libx11 libxft libxinerama
+sudo pacman -S make gcc libx11 libxft libxinerama &&
+sudo pacman -S dmenu scrot imagemagick mpv i3lock
 ```
 debian:
 ``` bash 
-sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev  libx11-xcb-dev libxcb-res0-dev
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev  libx11-xcb-dev libxcb-res0-dev &&
+udo apt install dmenu scrot imagemagick mpv i3lock
 ```
 
 make
